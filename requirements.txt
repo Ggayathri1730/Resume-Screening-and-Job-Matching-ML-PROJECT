@@ -1,9 +1,0 @@
-pandas
-numpy
-scikit-learn
-spacy
-PyPDF2
-matplotlib
-seaborn
-nltk
-streamlit
