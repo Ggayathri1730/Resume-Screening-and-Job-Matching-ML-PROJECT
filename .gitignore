@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and private resume information
+data/raw/
+data/processed/
+*.pdf
+*.csv
+*.json
+
+# Generated results
+results/
+
+# Model files
+models/*.pkl
+models/*.joblib
+
+# Secrets
+.env
+.env.*
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
