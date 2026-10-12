@@ -1,5 +1,5 @@
 # Resume Screening and Job Matching Using Machine Learning
-1.## Abstract
+## 1. Abstract
 
 Resume Screening and Job Matching Using Machine Learning is a project that uses Machine Learning and Natural Language Processing (NLP) to analyze resumes and job descriptions, calculate matching scores, and rank candidates based on their suitability. It helps recruiters reduce manual screening time and allows applicants to identify skill gaps and improve their resumes. The system provides a user-friendly interface for uploading PDF resumes, viewing match scores, comparing candidates, and exporting rankings, supporting faster and more effective recruitment decisions.
 
