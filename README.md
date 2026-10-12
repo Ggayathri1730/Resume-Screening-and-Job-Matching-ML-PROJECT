@@ -1,9 +1,9 @@
 # Resume Screening and Job Matching Using Machine Learning
-## Abstract
+1.## Abstract
 
 Resume Screening and Job Matching Using Machine Learning is a project that uses Machine Learning and Natural Language Processing (NLP) to analyze resumes and job descriptions, calculate matching scores, and rank candidates based on their suitability. It helps recruiters reduce manual screening time and allows applicants to identify skill gaps and improve their resumes. The system provides a user-friendly interface for uploading PDF resumes, viewing match scores, comparing candidates, and exporting rankings, supporting faster and more effective recruitment decisions.
 
-## 1. Project Overview
+## 2. Project Overview
 
 Resume Screening and Job Matching is a machine learning and
 natural language processing project that compares resumes
@@ -13,7 +13,7 @@ The system extracts resume text, identifies relevant skills,
 calculates text similarity, and ranks candidates according
 to their match with the job requirements.
 
-## 2. Objectives
+## 3. Objectives
 
 - Automate preliminary resume screening.
 - Extract relevant skills from resumes.
@@ -22,7 +22,7 @@ to their match with the job requirements.
 - Rank candidates based on their overall matching scores.
 - Display results through an interactive web application.
 
-## 3. Technologies Used
+## 4. Technologies Used
 
 - Python
 - Machine Learning
@@ -35,7 +35,7 @@ to their match with the job requirements.
 - Streamlit
 - PyMuPDF or the PDF parsing library used by the project
 
-## 4. Main Features
+## 5. Main Features
 
 - Upload multiple PDF resumes.
 - Enter a job description.
@@ -48,7 +48,7 @@ to their match with the job requirements.
 - Visualize candidate scores.
 - Download screening results as a CSV file.
 
-## 5. Project Structure
+## 6. Project Structure
 
     resume-screening-job-matching/
     ├── app/
@@ -62,7 +62,7 @@ to their match with the job requirements.
     ├── README.md
     └── requirements.txt
 
-## 6. How to Run the Project
+## 7. How to Run the Project
 
 ### Step 1: Clone or download the project
 
@@ -95,7 +95,7 @@ Windows PowerShell:
 5. Examine matched and missing skills.
 6. Download the results if required.
 
-## 7. Scoring Method
+## 8. Scoring Method
 
 The system combines text similarity and skill coverage.
 
@@ -107,7 +107,7 @@ Text similarity is calculated using TF-IDF and cosine
 similarity. Skill coverage measures the proportion of
 identified required skills found in a resume.
 
-## 8. Limitations
+## 9. Limitations
 
 - Skill extraction depends on the configured skill list.
 - PDF text extraction may not work well with scanned resumes.
@@ -116,7 +116,7 @@ identified required skills found in a resume.
 - The scoring method requires further evaluation on
   representative real-world data.
 
-## 9. Conclusion
+## 10. Conclusion
 
 This project demonstrates how machine learning and natural
 language processing can support preliminary resume screening
